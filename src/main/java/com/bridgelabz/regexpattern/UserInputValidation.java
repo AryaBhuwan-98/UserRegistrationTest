@@ -48,4 +48,4 @@ public class UserInputValidation {
 		        Matcher matcher = pattern.matcher(password);
 		        return matcher.matches();
 		    }
-	}    
+	}
