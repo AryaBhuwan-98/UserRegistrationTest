@@ -36,7 +36,7 @@ public class EmailPattern {
         emailAddressList.add("abc@gmail.com.1a");
         emailAddressList.add("ab33c@_bridgel4abz*gooogle");
 
-        EmailPattern emailPatternValidation = new EmailPattern();
+        EmailPatternValidation emailPatternValidation = new EmailPatternValidation();
         // 4.Iterating and printing valid message if the email addresses entered are valid
         for (String emailAddress : emailAddressList) {
             if (emailPatternValidation.isValidEmail(emailAddress))
@@ -45,9 +45,4 @@ public class EmailPattern {
                 System.out.println(emailAddress + " - Not valid");
         }
     }
-
-	private boolean isValidEmail(String emailAddress) {
-		// TODO Auto-generated method stub
-		return false;
-	}
 }
